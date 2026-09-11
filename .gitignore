@@ -1,0 +1,26 @@
+# Configuración local
+.env
+config.json
+
+# Datos reales: nunca subir registros, maestras ni bases
+*.xlsx
+*.xlsm
+*.xls
+*.json
+!config.example.json
+datos/
+PENDIENTES/
+PROCESADOS/
+_pendientes_local/
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Temporales de Office
+~$*
